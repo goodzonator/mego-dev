@@ -1,0 +1,40 @@
+.language-city {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    @extend .text-small;
+    &__value {
+        display: flex;
+        align-items: center;
+        margin-left: 4px;
+    }
+    &__question {
+        margin-left: auto;
+    }
+    .dot {
+        margin: 0 3px;
+    }
+    .current-city {
+        max-width: 140px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    @media (min-width: $ds) {
+        width: 196.5px;
+        justify-content: flex-start;
+        font-size: 13px;
+        line-height: 20px;
+        &__question {
+            display: none;
+        }
+        .dot {
+            margin: 0 4px;
+        }
+    }
+    @media (min-width: 1366px) {
+        font-size: 14px;
+    }
+}

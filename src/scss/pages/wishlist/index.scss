@@ -1,0 +1,7 @@
+.wishlist-page {
+    @media (min-width: $ds) {
+        .page-title + .wishlist-white-block {
+            margin-top: 1.5rem;
+        }
+    }
+}

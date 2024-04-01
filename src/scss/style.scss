@@ -1,0 +1,67 @@
+@use 'sass:math';
+
+/**
+* Подключение шрифтов локально из папки "./src/fonts"
+*/
+@import 'config/fonts';
+
+/** Подключение переменных */
+@import 'config/vars';
+
+/**
+* Подключение sass functions
+*/
+@import 'config/functions';
+
+/** Обнуление */
+@import 'config/reset';
+
+/**
+* Библиотеки
+*/
+@import 'libs/swiper';
+@import 'libs/jquery-ui';
+@import "libs/intlTellInput";
+@import "libs/fancybox";
+
+/**
+* Общие параметры, шаблоны(заготовки) и вспомогательные классы
+*/
+@import 'config/base';
+@import 'config/common';
+@import 'config/button';
+@import 'config/scrollbar';
+
+/**
+* Заголовки и прочие классы касательно текста
+*/
+@import 'config/typography';
+
+/**
+* Подключение стилей повторяющихся блоков
+*/
+@import "components";
+
+
+/**
+* Подключение стилей отдельных страниц
+*/
+@import "pages/main-page";
+@import "pages/category";
+@import "pages/subcategory";
+@import "pages/product";
+@import "pages/searching-results";
+@import "pages/brand";
+@import "pages/wishlist";
+@import "pages/stocks";
+@import "pages/stock";
+@import "pages/contact";
+@import "pages/cart";
+@import "pages/order";
+@import "pages/account";
+@import "pages/account-discounts-and-offers";
+@import "pages/account-orders";
+@import "pages/404";
+@import "pages/delivery";
+@import "pages/login";
+@import "pages/all-brands/";

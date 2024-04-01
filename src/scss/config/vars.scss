@@ -1,0 +1,58 @@
+// breakpoint
+
+$sx: 320px;
+$sm: 375px;
+$mobile: 767px;
+$tv: 768px;
+$th: 992px;
+$device: 1199px;
+$ds: 1200px;
+$dm: 1700px;
+$dl: 1900px;
+
+
+$font-family: 'Open Sans', sans-serif;
+$font-size: 14px;
+$line-height: 20px;
+$font-weight: 400;
+
+$violet-50: #FAF5FA;
+$violet-500: #844086;
+
+$cyan-50: #e0f3eb;
+$cyan-300: #8DF3C7;
+$cyan-500: #41D7B4;
+
+$dark-50: #F9FAFB;
+$dark-100: #F2F4F7;
+$dark-200: #EAECF0;
+$dark-300: #D0D5DD;
+$dark-400: #98A2B3;
+$dark-600: #475467;
+$dark-700: #344054;
+$dark-800: #1D2939;
+$dark-900: #030C1C;
+
+$new-blue-700: #961996;
+//$blue-700: #175CD3;
+$blue-700: $new-blue-700;
+$old-blue-700: #175CD3;
+
+$error-50: #FEF3F2;
+$error-500: #F04438;
+$error-600: #D92D20;
+$error-700: #B42318;
+$error-new-700: #ef4053;
+
+$success-500: #12B76A;
+$success-new-500: #9ac146;
+$success-700: #027A48;
+
+$warning-50: #FFFAEB;
+$warning-500: #F79009;
+$warning-700: #B54708;
+
+$black: #000;
+$white: #fff;
+
+$transition: .3s ease-in-out;

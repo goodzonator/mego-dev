@@ -1,0 +1,19 @@
+.sort {
+    margin-right: auto;
+    &__button {
+        width: 180px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    &__dropdown {
+        width: 304px;
+        max-width: calc(100vw - 2rem);
+    }
+    @media (min-width: $ds) {
+        &__button {
+            width: 227px;
+            height: 44px;
+            padding: 9px 11px;
+        }
+    }
+}

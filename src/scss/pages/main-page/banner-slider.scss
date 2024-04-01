@@ -1,0 +1,50 @@
+.banner-slider {
+    .link {
+        z-index: 1;
+        &:hover {
+            & + .img img {
+                transform: scale(1.05);
+            }
+        }
+    }
+    .img img {
+        transition: all .3s;
+    }
+    .tooltip-slider {
+        top: 8px;
+        right: 8px;
+    }
+    @media (max-width: 374px) {
+        .tooltip-slider__dropdown {
+            top: -55px;
+            &:before {
+                top: auto;
+                bottom: 11px;
+            }
+        }
+    }
+    @media (max-width: 767px) {
+        .tooltip-slider__dropdown {
+            &:before {
+                top: auto;
+                bottom: 11px;
+            }
+        }
+    }
+    @media (min-width: 375px) and (max-width: 767px) {
+        .tooltip-slider__dropdown {
+            top: -72px;
+        }
+    }
+    @media (min-width: $ds) {
+        margin-top: 48px;
+        .swiper-wrapper {
+            width: auto;
+            margin: 0 -12px;
+        }
+        .swiper-slide {
+            width: calc(50% - 24px);
+            margin: 0 12px;
+        }
+    }
+}
